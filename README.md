@@ -1,5 +1,10 @@
 # SmartLockKit
 
+[![CI](https://github.com/Chrois27/SmartLockKit/actions/workflows/ci.yml/badge.svg)](https://github.com/Chrois27/SmartLockKit/actions/workflows/ci.yml)
+![Swift](https://img.shields.io/badge/Swift-5.9+-orange.svg)
+![Platforms](https://img.shields.io/badge/Platforms-iOS%2013+%20%7C%20macOS%2011+-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A clean, dependency-free Swift package for driving a **BLE smart padlock** that
 speaks an encrypted command protocol over the Nordic UART Service (NUS) profile.
 
