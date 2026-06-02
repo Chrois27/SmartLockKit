@@ -4,6 +4,7 @@
 ![Swift](https://img.shields.io/badge/Swift-5.9+-orange.svg)
 ![Platforms](https://img.shields.io/badge/Platforms-iOS%2013+%20%7C%20macOS%2011+-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/Chrois27/SmartLockKit?sort=semver)](https://github.com/Chrois27/SmartLockKit/releases)
 
 A clean, dependency-free Swift package for driving a **BLE smart padlock** that
 speaks an encrypted command protocol over the Nordic UART Service (NUS) profile.
@@ -47,6 +48,18 @@ any hardware attached.
   generation deterministic under test.
 - **Reusable transport** — `BLEPeripheralClient` is configurable (device name, service /
   characteristic UUIDs, timeouts, MTU) and defaults to standard Nordic UART UUIDs.
+
+## Installation
+
+Swift Package Manager — add to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/Chrois27/SmartLockKit.git", from: "1.0.0")
+]
+```
+
+Or in Xcode: **File ▸ Add Package Dependencies…** and paste the repository URL.
 
 ## Usage
 
